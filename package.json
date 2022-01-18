@@ -1,10 +1,10 @@
 {
-  "name": "@doop/service-{{FIXME}}",
+  "name": "@doop/service-slack",
   "version": "1.0.0",
-  "description": "A {{FIXME}} service for the Doop framework",
+  "description": "A slack service for the Doop framework",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MomsFriendlyDevCo/doop-service-{{FIXME}}.git"
+    "url": "git+https://github.com/MomsFriendlyDevCo/doop-service-slack.git"
   },
   "keywords": [
     "doop"
@@ -12,9 +12,10 @@
   "author": "Matt Carter <m@ttcarter.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MomsFriendlyDevCo/doop-service-{{FIXME}}/issues"
+    "url": "https://github.com/MomsFriendlyDevCo/doop-service-slack/issues"
   },
-  "homepage": "https://github.com/MomsFriendlyDevCo/doop-service-{{FIXME}}#readme",
+  "homepage": "https://github.com/MomsFriendlyDevCo/doop-service-slack#readme",
   "dependencies": {
+    "@slack/web-api": "^6.5.1"
   }
 }
