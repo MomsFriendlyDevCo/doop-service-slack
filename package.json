@@ -1,5 +1,5 @@
 {
-  "name": "@doop/service-slack",
+  "name": "@doop/slack",
   "version": "1.0.0",
   "description": "A slack service for the Doop framework",
   "repository": {
