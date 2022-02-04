@@ -16,6 +16,11 @@
   },
   "homepage": "https://github.com/MomsFriendlyDevCo/doop-service-slack#readme",
   "dependencies": {
-    "@slack/web-api": "^6.5.1"
-  }
+    "@momsfriendlydevco/gulpy": "^1.4.3",
+    "@slack/web-api": "^6.5.1",
+    "debug": "^4.3.3"
+  },
+  "workspaces": [
+    "../*"
+  ]
 }
