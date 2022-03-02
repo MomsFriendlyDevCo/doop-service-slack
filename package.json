@@ -4,7 +4,7 @@
   "description": "A slack service for the Doop framework",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MomsFriendlyDevCo/doop-service-slack.git"
+    "url": "git+https://github.com/MomsFriendlyDevCo/doop-slack.git"
   },
   "keywords": [
     "doop"
@@ -12,15 +12,12 @@
   "author": "Matt Carter <m@ttcarter.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MomsFriendlyDevCo/doop-service-slack/issues"
+    "url": "https://github.com/MomsFriendlyDevCo/doop-slack/issues"
   },
-  "homepage": "https://github.com/MomsFriendlyDevCo/doop-service-slack#readme",
+  "homepage": "https://github.com/MomsFriendlyDevCo/doop-slack#readme",
   "dependencies": {
     "@momsfriendlydevco/gulpy": "^1.4.3",
     "@slack/web-api": "^6.5.1",
     "debug": "^4.3.3"
-  },
-  "workspaces": [
-    "../*"
-  ]
+  }
 }
